@@ -4,16 +4,8 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore, doc, setDoc } from 'firebase/firestore';
 
-// Your Firebase config
-const firebaseConfig = {
-  apiKey: "AIzaSyBiym9WhfL6P7_TlA_tqXXYBIVy2Hpbtic",
-  authDomain: "inventory-ef77b.firebaseapp.com",
-  projectId: "inventory-ef77b",
-  storageBucket: "inventory-ef77b.firebasestorage.app",
-  messagingSenderId: "239424605843",
-  appId: "1:239424605843:web:60697606a0d2d820134766",
-  measurementId: "G-0RVM0JM9HN"
-};
+// Your Firebase config.
+const firebaseConfig =. //your api key
 
 // Dummy data
 const dummyData = {
